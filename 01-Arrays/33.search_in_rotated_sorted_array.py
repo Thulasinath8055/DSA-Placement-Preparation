@@ -1,3 +1,23 @@
+"""
+Problem: Search in rotated sorted array
+Platform: Leetcode
+Difficulty: Medium
+
+Approach:
+First
+find the pivot index
+    if the mid value is less than its prev value
+        i.e pivot index
+    else
+    bin search conditions for left and right
+
+Second
+Decide which half to search for the target the first half till k or the second half.
+
+TC = O(log(n))
+SC = O(1)
+"""
+
 nums = [4]
 target = 2
 
